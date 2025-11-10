@@ -1,0 +1,12 @@
+[
+{"playerId": "p1", "name": "Virat Kohli", "country": "India", "image": "https://i.pravatar.cc/150?img=1", "role": "Batsman", "type": "Right-hand bat", "price": 30},
+{"playerId": "p2", "name": "Joe Root", "country": "England", "image": "https://i.pravatar.cc/150?img=2", "role": "Batsman", "type": "Right-hand bat", "price": 25},
+{"playerId": "p3", "name": "Kane Williamson", "country": "New Zealand", "image": "https://i.pravatar.cc/150?img=3", "role": "Batsman", "type": "Right-hand bat", "price": 22},
+{"playerId": "p4", "name": "Babar Azam", "country": "Pakistan", "image": "https://i.pravatar.cc/150?img=4", "role": "Batsman", "type": "Right-hand bat", "price": 28},
+{"playerId": "p5", "name": "Mitchell Starc", "country": "Australia", "image": "https://i.pravatar.cc/150?img=5", "role": "Bowler", "type": "Left-arm fast", "price": 27},
+{"playerId": "p6", "name": "Jasprit Bumrah", "country": "India", "image": "https://i.pravatar.cc/150?img=6", "role": "Bowler", "type": "Right-arm fast", "price": 26},
+{"playerId": "p7", "name": "Rashid Khan", "country": "Afghanistan", "image": "https://i.pravatar.cc/150?img=7", "role": "All-rounder", "type": "Leg-spin", "price": 24},
+{"playerId": "p8", "name": "AB de Villiers", "country": "South Africa", "image": "https://i.pravatar.cc/150?img=8", "role": "Batsman", "type": "Right-hand bat", "price": 29},
+{"playerId": "p9", "name": "Trent Boult", "country": "New Zealand", "image": "https://i.pravatar.cc/150?img=9", "role": "Bowler", "type": "Left-arm fast", "price": 21},
+{"playerId": "p10", "name": "Shakib Al Hasan", "country": "Bangladesh", "image": "https://i.pravatar.cc/150?img=10", "role": "All-rounder", "type": "Left-arm spin", "price": 23}
+]
