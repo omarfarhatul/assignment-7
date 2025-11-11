@@ -2,11 +2,6 @@
 import './Subscribe.css'
 
 const Subscribe = ({handelSubscribe}) => {
-
-
-    
-
-
     return (
         <div id='subscribe' className='border border-blue-300
           h-79  w-9/12 mx-auto rounded-2xl object-cover

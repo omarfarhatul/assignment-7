@@ -13,15 +13,16 @@ function App() {
   const [allimg, setAllimg] = useState(arguments);
   const [coins, setCoins] = useState(arguments);
   const [heroPhoto, setheroPhoto] = useState(arguments);
+
   //fetch all img
   useEffect(() => {
     fetch('Allimg.json')
       .then(res => res.json())
       .then(images => {
         setAllimg(images)
-
       })
   }, [])
+
   //fetch coind img
   useEffect(() => {
     fetch('Coin.json')
@@ -30,6 +31,7 @@ function App() {
         setCoins(coin)
       })
   }, [])
+
   //fetch hero img
   useEffect(() => {
     fetch('HreoPhoto.json')
@@ -38,6 +40,7 @@ function App() {
         setheroPhoto(heroimg)
       })
   }, [])
+
   //increment Claim free credit
   const [freeClaim, setfreeClaim] = useState(0)
   const handelfreeClaim = () => {
@@ -47,7 +50,6 @@ function App() {
     setfreeClaim(newfreeclaim)
     toast.success("Claim Successfull")
   }
-
 
   //button goggle 
   const [isactive, setisactive] = useState({
@@ -69,6 +71,7 @@ function App() {
       })
     }
   }
+
   //Allplayers
   const [allplayers, setallplayers] = useState([])
 
@@ -79,6 +82,7 @@ function App() {
         setallplayers(players)
       })
   }, [])
+
   //handel selected player
   const handelDelatePlayer = (id, price) => {
     setfreeClaim(freeClaim + price)
@@ -86,14 +90,11 @@ function App() {
     setSelectedPlayer(newPlayer)
   }
 
-
   const [selectedPlayer, setSelectedPlayer] = useState([]);
-
 
   const handelSelectedPlayers = (Player) => {
 
-   
-    const isexist = selectedPlayer.find(p => p.id == Player.id);
+  const isexist = selectedPlayer.find(p => p.id == Player.id);
 
     if (isexist) {
       toast.error('player already selected');
@@ -116,21 +117,16 @@ function App() {
 
         
       }
-
-
-
     }
-
-
   }
-//handel subscrive local store delate
 
+//handel subscrive local store delate
 
   //handel subscribe section
 
- const handelSubscribe =()=>{
-   
-   const data = document.getElementById('inputValue').value
+  const handelSubscribe =()=>{
+  
+  const data = document.getElementById('inputValue').value
 
    if(data !== 0 && isNaN(data)){
     
@@ -155,10 +151,6 @@ function App() {
       <div>
            <Subscribe   handelSubscribe={handelSubscribe}></Subscribe>
       </div>
-      <Footer coins={coins}></Footer>
-      
-      
-      
       <ToastContainer position='top-center'autoClose={1500}/>
     </div>
   
