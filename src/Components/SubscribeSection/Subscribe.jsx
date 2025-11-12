@@ -14,18 +14,10 @@ const Subscribe = ({handelSubscribe}) => {
                 </div>
                 <div className='join mx-auto mt-'>
                 
-                <input
-                    id='inputValue'
-                    type="email"
-                   
-                    placeholder="Subscribe By Email@"
-                    className="input rounded-tl-2xl rounded-bl-2xl md:w-100 p-8 input-bordered join-item text-black" />
-                <button onClick={handelSubscribe} className="btn rounded-tr-2xl rounded-br-2xl p-8 hover:bg-[#E7FE29] border-2  join-item">Subscribe</button>
-               
+                <input id='inputValue' type="email" placeholder="Subscribe By Email@" className="input border-2 bg-emerald-100 rounded-tl-2xl rounded-bl-2xl md:w-100 p-5 input-bordered join-item text-black" />
+                <button onClick={handelSubscribe} className="btn rounded-tr-2xl rounded-br-2xl p-5 bg-emerald-200 hover:bg-green-400 border-2 join-item">Subscribe</button>
                 </div>
-               
             </div>
-              
         </div>
     );
 };

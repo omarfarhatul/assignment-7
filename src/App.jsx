@@ -45,7 +45,7 @@ function App() {
   const [freeClaim, setfreeClaim] = useState(0)
   const handelfreeClaim = () => {
 
-    const newfreeclaim = freeClaim + 30000;
+    const newfreeclaim = freeClaim + 5000000;
     
     setfreeClaim(newfreeclaim)
     toast.success("Claim Successfull")
@@ -56,7 +56,7 @@ function App() {
     available: true,
     Status: 'available'
   })
- 
+
   //handel button 
   const handleisActive = (Status) => {
     if (Status == 'available') {
@@ -128,28 +128,27 @@ function App() {
   
   const data = document.getElementById('inputValue').value
 
-   if(data !== 0 && isNaN(data)){
+  if(data !== 0 && isNaN(data)){
     
     localStorage.setItem('email',data)
     
     document.getElementById('inputValue').value=''
     toast.success('Thank You for Subscribe')
-     
-   }else{
+  }
+  else{
     toast.error('Place enter valid Email')
-     
-   }
- }
+  }
+}
   return (
     <div className='max-w-11/12 mx-auto'>
 
-       <div className='sticky top-0 z-60'>
-       <Navbar allimg={allimg} coins={coins} freeClaim={freeClaim}></Navbar>
-       </div>
+      <div className='sticky top-0 z-60'>
+      <Navbar allimg={allimg} coins={coins} freeClaim={freeClaim}></Navbar>
+      </div>
       <HeroSection heroPhoto={heroPhoto} handelfreeClaim={handelfreeClaim}></HeroSection>
       <AvailablePlayers  handelDelatePlayer={handelDelatePlayer} selectedPlayer={selectedPlayer} handelSelectedPlayers={handelSelectedPlayers} allplayers={allplayers} isactive={isactive} handleisActive={handleisActive} ></AvailablePlayers>
       <div>
-           <Subscribe   handelSubscribe={handelSubscribe}></Subscribe>
+          <Subscribe   handelSubscribe={handelSubscribe}></Subscribe>
       </div>
       <ToastContainer position='top-center'autoClose={1500}/>
     </div>
