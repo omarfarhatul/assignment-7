@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Shakib Al Hasan",
       "image_url": "https://i.ibb.co.com/jv0FhX6R/sakib.jpg",
-      "rating": 8,
+      "rating": 9,
       "price": 1000000,
        "about": "Shakib Al Hasan is a Bangladeshi international cricketer and former captain of the national team. He is widely regarded as one of the greatest all-rounders in the history of cricket. Shakib holds the record for being the first cricketer to be ranked the No.1 all-rounder in all three formats by the ICC."
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Tamim Iqbal",
       "image_url": "https://i.ibb.co.com/gL5qTXj3/tamim.jpg",
-      "rating": 8,
+      "rating": 9,
       "price": 950000,
        "about": "Shakib Al Hasan is a Bangladeshi international cricketer and former captain of the national team. He is widely regarded as one of the greatest all-rounders in the history of cricket. Shakib holds the record for being the first cricketer to be ranked the No.1 all-rounder in all three formats by the ICC."
     },
@@ -19,72 +19,72 @@
       "id": 3,
       "name": "Mushfiqur Rahim",
       "image_url": "https://i.ibb.co.com/8npqkLJH/n.jpg",
-      "rating": 7,
+      "rating": 8.5,
       "price": 800000,
        "about": "Mushfiqur Rahim is a Bangladeshi cricketer and former captain of the national team. He is known for his aggressive batting style and has been a consistent performer for Bangladesh across all formats. Mushfiqur is also one of the most experienced players in the team."
     },
     {
       "id": 4,
       "name": "Mahmudullah Riyad",
-      "image_url": "https://thereport.live/media/imgAll/2024July/624C2BEF-670D-4400-BD94-EB9BA2EDCCAB-20241008163905.webp",
-      "rating": 6,
+      "image_url": "https://i.ibb.co.com/39DSJr8T/mahmudullah.webp",
+      "rating": 8.5,
       "price": 750000,
        "about": "Mahmudullah is a Bangladeshi cricketer known for his calm demeanor and finishing abilities. He has played crucial roles in many of Bangladesh's victories and is respected for his leadership qualities and experience."
     },
     {
       "id": 5,
       "name": "Mehidy Hasan Miraz",
-      "image_url": "https://www.ipl.com/upload/20241017/7d93b86719213f4ed21c2b650f0f51d7.png",
-      "rating": 7,
+      "image_url": "https://i.ibb.co.com/5gJ0NCzw/Mehidy-Hasan-Miraj.jpg",
+      "rating": 8,
       "price": 900000,
        "about": "Mehidy Hasan Miraz is a Bangladeshi all-rounder who plays as a right-handed batsman and right-arm off-break bowler. He has been instrumental in Bangladesh's spin attack and has contributed significantly with the bat in the lower order."
     },
     {
       "id": 6,
-      "name": "Mustafizur Rahman",
-      "image_url": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/319700/319734.png",
-      "rating": 6,
-      "price": 700000,
-        "about": "Mustafizur Rahman, also known as 'The Fizz', is a Bangladeshi left-arm fast-medium bowler renowned for his off-cutters and variations. He made a sensational debut in 2015, taking 11 wickets in his first two ODIs against India, a record in cricket history."
-    },
-    {
-      "id": 7,
       "name": "Liton Kumar Das",
-      "image_url": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200/lsci/db/PICTURES/CMS/319700/319727.png",
-      "rating": 5,
+      "image_url": "https://i.ibb.co.com/XkDrHYKN/Liton-Kumar-Das.webp",
+      "rating": 8.5,
       "price": 850000,
       "about": "Liton Das is a Bangladeshi wicket-keeper batsman known for his elegant stroke play. He holds the record for the highest individual score by a Bangladeshi batsman in ODIs, scoring 176 runs against Zimbabwe."
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Taskin Ahmed",
-      "image_url": "https://th.bing.com/th/id/OIP.aRAUTISGx1VJ-CihGlJcRwHaHa?rs=1&pid=ImgDetMain",
-      "rating": 6,
+      "image_url": "https://i.ibb.co.com/q3BRckmG/Taskin-Ahmed.webp",
+      "rating": 7.5,
       "price": 600000,
       "about": "Taskin Ahmed is a Bangladeshi right-arm fast bowler known for his pace and aggression. He has been a key figure in Bangladesh's pace attack and has delivered match-winning performances in various formats."
     },
     {
+      "id": 8,
+      "name": "Mustafizur Rahman",
+      "image_url": "https://i.ibb.co.com/1fj97Y0L/Mustafizur-Rahman.jpg",
+      "rating": 9,
+      "price": 700000,
+        "about": "Mustafizur Rahman, also known as 'The Fizz', is a Bangladeshi left-arm fast-medium bowler renowned for his off-cutters and variations. He made a sensational debut in 2015, taking 11 wickets in his first two ODIs against India, a record in cricket history."
+    },
+    {
       "id": 9,
-      "name": "Najmul Hossain Shanto",
-      "image_url": "https://www.thenews.com.pk/assets/uploads/akhbar/2024-02-14/1157351_9453118_SHanto_akhbar.jpg",
-      "rating": 4,
+      "name": "Soumya Sarkar",
+      "image_url": "https://i.ibb.co.com/tTxCKf22/Soumya-Sarkar.jpg",
+      "rating": 7,
       "price": 600000,
-       "about": "Najmul Hossain Shanto is a Bangladeshi top-order batsman and the current captain of the national team in Test and ODI formats. He has shown promise with several significant innings and is considered a future star for Bangladesh."
+       "about": "Soumya Sarkar is a Bangladeshi top-order batsman and part-time medium pacer known for his aggressive batting style and elegant stroke play. He has been an important player for Bangladesh in limited-overs cricket, contributing with both bat and ball."
     },
     {
       "id": 10,
       "name": "Tanzid Hasan Tamim",
       "image_url": "https://tse3.mm.bing.net/th?id=OIP.2wT30uOHnoKYFDs3les8agHaEc&rs=1&pid=ImgDetMain",
-      "rating": 2,
+      "rating": 8,
       "price": 400000,
        "about": "Tanzid Hasan is a young Bangladeshi cricketer who has represented the national team in various formats. He is known for his aggressive batting style and has been a part of Bangladesh's youth development programs."
     },
     {
       "id": 11,
-      "name": "Towhid Hridoy",
-      "image_url": "https://api.bdcrictime.com/hridoy-with-cap-18_09_2023.jpg",
-      "rating": 5,
-      "price": 500000,
-      "about": "Towhid Hridoy is a Bangladeshi middle-order batsman who has shown potential in domestic and international cricket. He is known for his composure at the crease and ability to build innings under pressure."
+      "name": "Mashrafe Bin Mortaza",
+      "image_url": "https://i.ibb.co.com/sdMtG69v/mashrafe.jpg",
+      "rating": 9.5,
+      "price": 1000000,
+      "about": "Mashrafe Bin Mortaza is a Bangladeshi fast bowler and former captain known for his leadership, determination, and fighting spirit. Nicknamed “Narail Express,” he played a key role in transforming Bangladesh cricket and leading the team to major achievements."
     }
   ]
