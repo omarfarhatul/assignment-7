@@ -23,7 +23,7 @@ function App() {
       })
   }, [])
 
-  //fetch coind img
+  //fetch coin img
   useEffect(() => {
     fetch('Coin.json')
       .then(res => res.json())
@@ -41,15 +41,38 @@ function App() {
       })
   }, [])
 
-  //increment Claim free credit
-  const [freeClaim, setfreeClaim] = useState(0)
-  const handelfreeClaim = () => {
 
-    const newfreeclaim = freeClaim + 5000000;
-    
-    setfreeClaim(newfreeclaim)
-    toast.success("Claim Successfull")
+
+  //increment Claim free credit
+const [freeClaim, setfreeClaim] = useState(0);
+useEffect(() => {
+  const lastClaimDate = localStorage.getItem("lastClaimDate");
+  const today = new Date().toDateString();
+
+  // today claim
+  if (lastClaimDate === today) {
+    setfreeClaim(parseInt(localStorage.getItem("claimedAmount")) || 0);
   }
+}, []);
+
+const handelfreeClaim = () => {
+  const today = new Date().toDateString();
+  const lastClaimDate = localStorage.getItem("lastClaimDate");
+
+  if (lastClaimDate === today) {
+    toast.error("You have already claimed today!");
+    return;
+  }
+
+  // claim success
+  const newfreeclaim = freeClaim + 5000000;
+  setfreeClaim(newfreeclaim);
+  localStorage.setItem("lastClaimDate", today);
+  localStorage.setItem("claimedAmount", newfreeclaim);
+  toast.success("Claim Successful!");
+};
+
+
 
   //button goggle 
   const [isactive, setisactive] = useState({
