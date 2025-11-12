@@ -3,7 +3,7 @@ const Navbar = ({freeClaim,allimg,coins}) => {
     const [coin]=coins
 
     return(
-        <div className="">
+        <div className="bg-green-200">
             <div className="gap-2 md:h-35 rounded-b-xl px-6 items-center navbar bg-base-300 font-bold grid lg:flex lg:justify-between md:flex md:justify-between md:items-center lg:text-2xl md:text-xl">
             
                 <img className="w-12 lg:w-20 md:w-15 mx-auto lg:mx-0 md:mx-0" src={logo.logo} alt="" />
@@ -15,7 +15,7 @@ const Navbar = ({freeClaim,allimg,coins}) => {
                         <li>Teams</li>
                         <li>Schedules</li>
                         </div>
-                        <p className="text-center"><small className=" md:mt-0 p-1 md:p-2 border-2 rounded-2xl place-items-center  w-40 md:w-50  mx-auto  flex justify-center">{freeClaim} Coin <img className="w-4 mx-2" src={coin.coin} alt="" /></small></p>
+                        <p className="text-center"><small className=" md:mt-0 p-1 md:p-2 border-2 rounded-2xl place-items-center  w-40 md:w-50  mx-auto flex justify-center">{freeClaim} Coin <img className="w-4 mx-2" src={coin.coin} alt="" /></small></p>
                 </ul>
             </div>
         </div>
