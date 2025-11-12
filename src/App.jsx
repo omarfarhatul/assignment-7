@@ -23,7 +23,7 @@ function App() {
       })
   }, [])
 
-  //fetch coin img
+  //fetch coind img
   useEffect(() => {
     fetch('Coin.json')
       .then(res => res.json())
@@ -41,10 +41,9 @@ function App() {
       })
   }, [])
 
-
-
   //increment Claim free credit
 const [freeClaim, setfreeClaim] = useState(0);
+
 useEffect(() => {
   const lastClaimDate = localStorage.getItem("lastClaimDate");
   const today = new Date().toDateString();
@@ -71,7 +70,6 @@ const handelfreeClaim = () => {
   localStorage.setItem("claimedAmount", newfreeclaim);
   toast.success("Claim Successful!");
 };
-
 
 
   //button goggle 
