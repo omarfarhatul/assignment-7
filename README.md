@@ -1,10 +1,10 @@
 <<<<<<< HEAD
 =======
-# 🏏 BPL-DREAM 11
+# 🏏 Bangladesh Team 11
 
-## 📋 Project Description
+## 📋 Description
 
-BPL-DREAM 11 allows users to choose cricket players within a coin-based budget. The application mimics a fantasy league system, enabling the selection of players, toggling views between available and selected lists, and ensuring logical constraints such as no duplicates and team size limits. The interface is designed to match the provided Figma UI and ensures a seamless user experience.
+ Bangladesh Team 11 is a fantasy-style cricket selection app where users can build their own team within a coin-based budget. It replicates the excitement of a real fantasy league by allowing users to choose players strategically, switch between available and selected player lists, and follow clear rules such as avoiding duplicate selections and maintaining a fixed team size. The user interface closely follows the Figma design and delivers a smooth, interactive experience throughout.
 
 ---
 
@@ -13,7 +13,7 @@ BPL-DREAM 11 allows users to choose cricket players within a coin-based budget. 
 - **React.js** – Front-end library for building UI
 - **Tailwind CSS** – Utility-first CSS framework for design
 - **React-Toastify** – For elegant toast notifications
-- **JavaScript (ES6+)** – Logic and interactivity
+- **JavaScript** – Logic and interactivity
 - **Figma** – For design inspiration
 
 ---
@@ -74,7 +74,7 @@ BPL-DREAM 11 allows users to choose cricket players within a coin-based budget. 
 ### Clone and Run
 
 ```bash
-git clone https://github.com/sadhin28/react-cricket-project.git
-cd bpl-dream11
+git clone https://github.com/omarfarhatul/assignment-7
+cd bangladesh-team-11
 npm install
 npm run dev

@@ -119,10 +119,10 @@ const handelfreeClaim = () => {
   const isexist = selectedPlayer.find(p => p.id == Player.id);
 
     if (isexist) {
-      toast.error('player already selected');
+      toast.error('player already selected!');
     } else {
       if (freeClaim == 0 && freeClaim !== isNaN ) {
-        toast.error("Claim free Credit Then Chooes Players")
+        toast.error("Claim free Credit Then Chooes Players!")
       }
       else {
         if(Player.price <= freeClaim){
@@ -131,7 +131,7 @@ const handelfreeClaim = () => {
             setfreeClaim(freeClaim - Player.price)
             setSelectedPlayer(newselectedPlayer)
           } else {
-            toast.error('6 player already selected')
+            toast.error('6 player already selected!')
           }
         }
         else{
