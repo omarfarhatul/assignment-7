@@ -135,8 +135,6 @@ const handelfreeClaim = () => {
         }else{
           toast.error("You do not have enough coins. Please collect free coins")
         }
-
-        
       }
     }
   }
@@ -169,8 +167,9 @@ const handelfreeClaim = () => {
       <HeroSection heroPhoto={heroPhoto} handelfreeClaim={handelfreeClaim}></HeroSection>
       <AvailablePlayers  handelDelatePlayer={handelDelatePlayer} selectedPlayer={selectedPlayer} handelSelectedPlayers={handelSelectedPlayers} allplayers={allplayers} isactive={isactive} handleisActive={handleisActive} ></AvailablePlayers>
       <div>
-          <Subscribe   handelSubscribe={handelSubscribe}></Subscribe>
+          <Subscribe handelSubscribe={handelSubscribe}></Subscribe>
       </div>
+      <Footer coins={coins} />
       <ToastContainer position='top-center'autoClose={1500}/>
     </div>
   
