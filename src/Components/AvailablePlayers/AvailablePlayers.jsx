@@ -3,7 +3,7 @@ import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 import './AvailablePlayer.css'
 const AvailablePlayers = ({handleisActive,isactive,allplayers,handelSelectedPlayers,selectedPlayer,handelDelatePlayer,handelAddmorePlayer}) => {
     return (
-        <div className=''>
+        <div>
             <div className="mt-10 mb-10 flex font-black justify-between text-sm lg:text-2xl md:text-xl">
              <div>
                 {

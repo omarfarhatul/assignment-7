@@ -14,7 +14,7 @@ const SelectedPlayers = ({selectedPlayer,handelDelatePlayer,handleisActive,isact
                     {
                         selectedPlayer.length == false ?'':<button onClick={()=>handleisActive('available')} className={`${isactive.available?'btn':'active btn'} font-black p-5 rounded-2xl`}>Add More Player</button>
                     }
-                  </div>
+                </div>
             </div>
         </div>
     );
