@@ -133,7 +133,8 @@ const handelfreeClaim = () => {
           } else {
             toast.error('6 player already selected')
           }
-        }else{
+        }
+        else{
           toast.error("You do not have enough coins. Please collect free coins")
         }
       }
