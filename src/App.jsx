@@ -55,7 +55,7 @@ useEffect(() => {
   }
 }, []);
 
-const handelfreeClaim = () => {
+  const handelfreeClaim = () => {
   const today = new Date().toDateString();
   const lastClaimDate = localStorage.getItem("lastClaimDate");
 
